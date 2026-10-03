@@ -1,4 +1,4 @@
-🔐 Local Login Website
+# 🔐 Local Login Website
 
 A simple and modern login & registration website built with HTML, CSS and JavaScript.
 
