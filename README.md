@@ -4,7 +4,7 @@ A simple and modern login & registration website built with HTML, CSS and JavaSc
 
 This project is mainly focused on learning how authentication systems work on the frontend, while practising JavaScript, DOM manipulation, forms and browser storage.
 
-✨ Features
+## ✨ Features
 
 * 🔑 User registration
 * 👤 User login
@@ -17,14 +17,14 @@ This project is mainly focused on learning how authentication systems work on th
 * 🌙 Modern dark/glass-style UI
 * 📁 Organised HTML, CSS and JavaScript files
 
-🛠️ Technologies
+## 🛠️ Technologies
 
 * HTML5 — Website structure
 * CSS3 — Styling and responsive design
 * JavaScript — Login/register functionality and interaction
 * localStorage — Temporary local user storage
 
-🚧 Coming Soon
+## 🚧 Coming Soon
 
 This project is still being developed. Planned features include:
 
@@ -39,7 +39,7 @@ This project is still being developed. Planned features include:
 * 🛡️ Better security
 * 📊 User account/dashboard system
 
-⚠️ Current Limitations
+## ⚠️ Current Limitations
 
 The current version uses localStorage to store account information, meaning the login system is only intended for learning and testing.
 
@@ -47,7 +47,7 @@ It is not a production-ready authentication system and should not be used to sto
 
 The planned API/backend version will move authentication and user data away from the browser and into a proper backend/database system.
 
-📂 Project Structure
+## 📂 Project Structure
 
 local-login-website/
 │
@@ -60,13 +60,13 @@ local-login-website/
     ├── login.style.css
     └── login.script.js
 
-🎯 Purpose
+## 🎯 Purpose
 
 I created this project to improve my understanding of web development and JavaScript, starting with a local authentication system and gradually working towards a proper full-stack application.
 
 The long-term goal is to connect the frontend to an API and database and turn this into a more complete authentication system.
 
-📌 Status
+## 📌 Status
 
 🟡 In Development
 
@@ -74,7 +74,7 @@ More features and improvements will be added as I continue learning.
 
 ⸻
 
-👨‍💻 Built with
+## 👨‍💻 Built with
 
 HTML • CSS • JavaScript
 
