@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers .container vertically */
+  /* Deep Space Ambient Glow */
+  background: 
+    radial-gradient(circle at 85% 15%, rgba(30, 16, 53, 0.8) 0%, transparent 55%),
+    radial-gradient(circle at 15% 85%, rgba(17, 24, 39, 0.9) 0%, transparent 60%),
+    #0b0f19;
+  background-attachment: fixed;
+  color: #f8fafc;
+}
+
+.heading {
+	position: absolute; 
+	top: 15px;
+	left: 24px;
+	margin: 0;
+}
+
+.heading a {
+  position: absolute;
+  top: 2px;
+  left: 260px;
+  padding: 8px 22px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(124, 58, 237, 0.35);
+  transition: all 0.25s ease-in-out;
+}
+
+.heading a:hover {
+  background: linear-gradient(135deg, #4338ca 0%, #6d28d9 100%);
+  box-shadow: 0 6px 20px rgba(124, 58, 237, 0.6);
+  transform: translateY(-2px);
+}
+
+.heading a:active {
+  transform: translateY(0);
+}
+
+.container {
+	width: 100%;
+	max-width: 420px;
+	padding: 40px 32px;
+	/* Dark Glassmorphism */
+	background: rgba(17, 24, 39, 0.75);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: 20px;
+	box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+	animation: fadeInDown 0.8s ease-out forwards; /* Fades in and slides down on load */
+}
+
+.container h2 {
+	text-align: center;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
